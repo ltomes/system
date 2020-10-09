@@ -6,6 +6,9 @@ if %ERRORLEVEL% EQU 0 Echo Powertoys installed successfully.
 REM Terminal  
 winget install Microsoft.WindowsTerminal  
 if %ERRORLEVEL% EQU 0 Echo Terminal installed successfully.   %ERRORLEVEL%
+REM PowerShell Core
+winget install Microsoft.PowerShell
+if %ERRORLEVEL% EQU 0 Echo Microsoft PowerShell installed successfully.   %ERRORLEVEL%
 REM git  
 winget install Git.Git  
 if %ERRORLEVEL% EQU 0 Echo Git installed successfully.

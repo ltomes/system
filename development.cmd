@@ -13,7 +13,7 @@ REM git
 winget install Git.Git  
 if %ERRORLEVEL% EQU 0 Echo Git installed successfully.
 REM Visual Studio Code
-winget install Microsoft.VisualStudioCodeInsiders
+winget install Microsoft.VisualStudioCode.Insiders
 if %ERRORLEVEL% EQU 0 Echo Microsoft Visual Studio Code Insiders installed successfully.
 REM Amazon.AWSCLI
 winget install Amazon.AWSCLI
